@@ -47,13 +47,22 @@ Use the Solution Explorer in Visual Studio to:
 6. Rename the classes if they have been pluralized:
 - Use `right-click → Rename` or the `F2` shortcut.
 - Confirm the pop-up windows after renaming each class. 
-- 
+
 7. Clean up unused packages by running these commands one by one:
 
 ```sh
 Uninstall-Package Microsoft.EntityFrameworkCore.Tools -r
 Uninstall-Package Microsoft.EntityFrameworkCore.Design -RemoveDependencies
 ```
+
+## 3. Employees Full Information
+Use SoftUniContext to extract data from the database.
+
+### Steps:
+1. Implement the public static string `GetEmployeesFullInformation(SoftUniContext context)` method.
+2. Implement a `public StartUp` class.
+   
+You can now use SoftUniContext to interact with the database and perform various data operations.
 
 ## Contributing
 Contributions are welcome! If you have any improvements or bug fixes, feel free to open a pull request.
