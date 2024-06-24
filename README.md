@@ -1,1 +1,1 @@
-# NewRepo2
+# Entity Framework Core Configuration
