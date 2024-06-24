@@ -50,10 +50,10 @@ Use the Solution Explorer in Visual Studio to:
 - 
 7. Clean up unused packages by running these commands one by one:
 
-``sh
+```sh
 Uninstall-Package Microsoft.EntityFrameworkCore.Tools -r
 Uninstall-Package Microsoft.EntityFrameworkCore.Design -RemoveDependencies
-``
+```
 
 ## Contributing
 Contributions are welcome! If you have any improvements or bug fixes, feel free to open a pull request.
