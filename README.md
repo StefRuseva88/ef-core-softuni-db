@@ -3,5 +3,63 @@
 ![image](https://img.shields.io/badge/.NET-512BD4?style=for-the-badge&logo=dotnet&logoColor=white)
 ![image](https://img.shields.io/badge/Visual_Studio-5C2D91?style=for-the-badge&logo=visual%20studio&logoColor=white)
 ![MicrosoftSQLServer](https://img.shields.io/badge/Microsoft%20SQL%20Server-CC2927?style=for-the-badge&logo=microsoft%20sql%20server&logoColor=white)
-### This is a test project for Back-End Test Automation March 2024 Course @ SoftUni
 
+### This repository contains the exercise assignments for the **Databases Advanced - Entity Framework** course at SoftUni.
+
+## Table of Contents
+1. [Import the SoftUni Database](#1-import-the-softuni-database)
+2. [Database First](#2-database-first)
+3. [Employees Full Information](#3-employees-full-information)
+
+## 1. Import the Database
+
+Import your script to the database (in that case SoftUni database) into SQL Management Studio.
+
+## 2. Database First
+
+Model the existing database using the Database First approach.
+
+### Steps:
+
+1. Create a new empty .NET Core Console Application.
+2. Open the Package Manager Console.
+3. Run the following commands one by one to install necessary packages:
+
+   ```sh
+   Install-Package Microsoft.EntityFrameworkCore.Tools –v 6.0.1
+   Install-Package Microsoft.EntityFrameworkCore.SqlServer –v 6.0.1
+   Install-Package Microsoft.EntityFrameworkCore.Design -v 6.0.1
+   ```
+
+4.Ensure you have a public Program class and a static void Main() method.
+5.Execute the command to scaffold the context class:
+
+ ```sh
+Scaffold-DbContext -Connection "Server=<ServerName>;Database=<YourDatabase>;Integrated Security=True;" -Provider Microsoft.EntityFrameworkCore.SqlServer -OutputDir Data/Models
+ ```
+
+- replace `ServerName` with your local MS SQL Server instance name.
+- replace `YourDatabase` with the name of the database you want to use.
+  
+Note: Write only one \ in the connection string to avoid InvalidOperationException: Instance failure.
+Use the Solution Explorer in Visual Studio to:
+
+6.Rename the classes if they have been pluralized:
+- Use `right-click → Rename` or the `F2` shortcut.
+- Confirm the pop-up windows after renaming each class. 
+- 
+7.Clean up unused packages by running these commands one by one:
+
+``sh
+Uninstall-Package Microsoft.EntityFrameworkCore.Tools -r
+Uninstall-Package Microsoft.EntityFrameworkCore.Design -RemoveDependencies
+``
+
+## Contributing
+Contributions are welcome! If you have any improvements or bug fixes, feel free to open a pull request.
+
+## License
+This project is licensed under the [MIT License](LICENSE). See the [LICENSE](LICENSE) file for details.
+
+## Contact
+For any questions or suggestions, please open an issue in the repository.
