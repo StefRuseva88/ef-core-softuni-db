@@ -31,8 +31,8 @@ Model the existing database using the Database First approach.
    Install-Package Microsoft.EntityFrameworkCore.Design -v 6.0.1
    ```
 
-4.Ensure you have a public Program class and a static void Main() method.
-5.Execute the command to scaffold the context class:
+4. Ensure you have a public Program class and a static void Main() method.
+5. Execute the command to scaffold the context class:
 
  ```sh
 Scaffold-DbContext -Connection "Server=<ServerName>;Database=<YourDatabase>;Integrated Security=True;" -Provider Microsoft.EntityFrameworkCore.SqlServer -OutputDir Data/Models
@@ -44,11 +44,11 @@ Scaffold-DbContext -Connection "Server=<ServerName>;Database=<YourDatabase>;Inte
 Note: Write only one \ in the connection string to avoid InvalidOperationException: Instance failure.
 Use the Solution Explorer in Visual Studio to:
 
-6.Rename the classes if they have been pluralized:
+6. Rename the classes if they have been pluralized:
 - Use `right-click → Rename` or the `F2` shortcut.
 - Confirm the pop-up windows after renaming each class. 
 - 
-7.Clean up unused packages by running these commands one by one:
+7. Clean up unused packages by running these commands one by one:
 
 ``sh
 Uninstall-Package Microsoft.EntityFrameworkCore.Tools -r
