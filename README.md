@@ -72,6 +72,7 @@ Use SoftUniContext to extract data from the database.
 ### Steps:
 1. Implement the public static string `GetEmployeesFullInformation(SoftUniContext context)` method.
 2. Implement a `public StartUp` class.
+3. Utilize `SoftUniContext` to interact with the database and perform various data operations.
    
 You can now use SoftUniContext to interact with the database and perform various data operations.
 
