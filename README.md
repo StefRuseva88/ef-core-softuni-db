@@ -4,7 +4,7 @@
 ![image](https://img.shields.io/badge/Visual_Studio-5C2D91?style=for-the-badge&logo=visual%20studio&logoColor=white)
 ![MicrosoftSQLServer](https://img.shields.io/badge/Microsoft%20SQL%20Server-CC2927?style=for-the-badge&logo=microsoft%20sql%20server&logoColor=white)
 
-### This repository contains the exercise assignments for the **Databases Advanced - Entity Framework** course at SoftUni.
+### This repository contains the exercise assignments for the **Databases Advanced - Entity Framework** course at SoftUni
 
 ## Table of Contents
 1. [Import the SoftUni Database](#1-import-the-softuni-database)
