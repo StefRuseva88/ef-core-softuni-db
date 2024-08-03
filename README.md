@@ -3,8 +3,8 @@
 ![image](https://img.shields.io/badge/C%23-239120?style=for-the-badge&logo=csharp&logoColor=white)
 ![image](https://img.shields.io/badge/.NET-512BD4?style=for-the-badge&logo=dotnet&logoColor=white)
 ![image](https://img.shields.io/badge/Visual_Studio-5C2D91?style=for-the-badge&logo=visual%20studio&logoColor=white)
-[![Entity Framework Core](https://img.shields.io/badge/Entity%20Framework-Core-512BD4.svg)](https://github.com/dotnet/efcore)
 ![MicrosoftSQLServer](https://img.shields.io/badge/Microsoft%20SQL%20Server-CC2927?style=for-the-badge&logo=microsoft%20sql%20server&logoColor=white)
+[![Entity Framework Core](https://img.shields.io/badge/Entity%20Framework-Core-512BD4.svg)](https://github.com/dotnet/efcore)
 
 ### This repository contains the project assignments for the **Databases Advanced - Entity Framework** course at SoftUni
 
