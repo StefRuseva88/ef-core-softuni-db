@@ -11,7 +11,7 @@
 
 1. [Import the Database](#1-import-the-database)
 2. [Database First](#2-database-first)
-3. [Fetch Full Information](#3-fetch-full-information)
+3. [Fetching Full Information](#3-fetching-full-information)
 4. [Contributing](#contributing)
 5. [License](#license)
 6. [Contact](#contact)
