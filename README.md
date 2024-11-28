@@ -68,9 +68,6 @@ In this task, you will extract and display employee data from the SoftUni databa
    
 By utilizing `SoftUniContext`, you can now query and manipulate data from the database.
 
-## Contributing
-Contributions are welcome! If you have any improvements or bug fixes, feel free to open a pull request.
-
 ## License
 This project is licensed under the [MIT License](LICENSE). See the [LICENSE](LICENSE) file for details.
 
